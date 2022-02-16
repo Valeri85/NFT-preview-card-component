@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<!-- Displays site properly based on user's device -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- Favicon -->
+		<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+		<!-- Title -->
+		<title>Frontend Mentor | NFT preview card component</title>
+		<!-- Preload css -->
+		<link rel="preload" href="./css/style.min.css" as="style" />
+		<!-- Css -->
+		<link rel="stylesheet" href="./css/style.min.css" />
+		<!-- Preload fonts -->
+		<link rel="preload" href="fonts/Outfit-Light.woff" as="font" type="font/woff" crossorigin />
+		<link rel="preload" href="fonts/Outfit-Bold.woff" as="font" type="font/woff" crossorigin />
+		<link rel="preload" href="fonts/Outfit-Regular.woff" as="font" type="font/woff" crossorigin />
+		<link rel="preload" href="fonts/Outfit-Light.woff2" as="font" type="font/woff2" crossorigin />
+		<link rel="preload" href="fonts/Outfit-Bold.woff2" as="font" type="font/woff2" crossorigin />
+		<link rel="preload" href="fonts/Outfit-Regular.woff2" as="font" type="font/woff2" crossorigin />
+	</head>
+	<body>
+		<!-- Card start-->
+		<main class="main">
+			<div class="main__img-container">
+				<img class="main__img" src="./images/image-equilibrium.webp" alt="Transparent Cube" />
+				<img class="main__img-eye" src="./images/icon-view.svg" alt="Eye Icon" />
+			</div>
+			<h1 class="main__title">Equilibrium #3429</h1>
+			<p class="main__text">Our Equilibrium collection promotes balance and calm.</p>
+			<div class="main__icons">
+				<p class="main__eth">
+					<img class="main__eth-icon" src="./images/icon-ethereum.svg" alt="Ethereum Icon" />0.041
+					<abbr class="main__eth-abbr" title="Ethereum">&nbsp;ETH</abbr>
+				</p>
+				<p class="main__time">
+					<img class="main__time-icon" src="./images/icon-clock.svg" alt="Clock Icon" />
+					<time class="main__time-days">3 days left</time>
+				</p>
+			</div>
+			<hr class="main__line" />
+			<p class="main__creator">
+				<img class="main__creator-img" src="./images/image-avatar.png" alt="Jules Wyvern" />
+				Creation of <cite class="main__creator-author">&nbsp;Jules Wyvern</cite>
+			</p>
+		</main>
+		<!-- Card end-->
+
+		<!-- Footer -->
+		<footer class="footer">
+			Challenge by
+			<a class="footer__link" href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+				>Frontend Mentor</a
+			>. Coded by
+			<a class="footer__link" href="https://www.frontendmentor.io/profile/Valeri85" target="_blank"
+				>Valeri</a
+			>.
+		</footer>
+	</body>
+</html>

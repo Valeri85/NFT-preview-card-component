@@ -1,0 +1,9 @@
+@use "../base/root" as *;
+
+.footer {
+	margin-top: auto;
+	text-align: center;
+	&__link {
+		color: var(--cyan);
+	}
+}

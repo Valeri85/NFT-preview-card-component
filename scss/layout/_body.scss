@@ -1,0 +1,9 @@
+@use "../base/root" as *;
+@use "../helpers/functions";
+
+body {
+	display: grid;
+	background-color: var(--primary-bg);
+	color: var(--soft-blue);
+	font-weight: functions.weight(light);
+}
