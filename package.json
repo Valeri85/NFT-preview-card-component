@@ -10,7 +10,8 @@
 		"postcss:autoprefixer": "npx postcss css/style.css -u autoprefixer -r",
 		"sass:compressed": "npx sass css/style.css:css/style.min.css --style compressed",
 		"ttf2woff": "npx ttf2woff fonts/Outfit-Light.ttf fonts/Outfit-Light.woff",
-		"webp": "npx webpc -f images/image-equilibrium.jpg"
+		"webp": "npx webpc -f images/image-equilibrium.jpg",
+		"build": "npm run groupMedia && npm run postcss:autoprefixer && npm run sass:compressed"
 	},
 	"keywords": [],
 	"author": "Valeri",
