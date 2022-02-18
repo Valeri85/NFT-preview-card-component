@@ -44,15 +44,12 @@ Users should be able to:
 
 ### Useful resources
 
+-   [live-server](https://www.npmjs.com/package/live-server) - This npm package a little development server with live reload capability. Use it for hacking your HTML/JavaScript/CSS files, but not for deploying the final site.
 -   [sass](https://www.npmjs.com/package/sass) - npm package is a distribution of Dart Sass. Sass makes CSS fun again.
 -   [autoprefixer](https://www.npmjs.com/package/autoprefixer) - PostCSS plugin to parse CSS and add vendor prefixes to CSS rules using values from Can I Use.
--   [ttf2woff](https://www.npmjs.com/package/ttf2woff) - npm package helped me convert fonts from ttf format to woff.
--   [ttf2woff2](https://www.npmjs.com/package/ttf2woff2) - npm package helped me convert fonts from ttf format to woff2.
--   Convert ttf2woff2 from powershell:
--   `start-process -nnw -wait ttf2woff2.cmd -rsi fonts/Outfit-Light.ttf -rso fonts/Outfit-Light.woff2`
--   Regular and Bold styles copied from previous [QR Code Component](https://github.com/Valeri85/QR-code-component) challenge.
--   [webp-converter-cli](https://www.npmjs.com/package/webp-converter-cli) The CommandLine tool for converting jpg or png files to webp, recursively.
 -   [group-css-media-queries](https://www.npmjs.com/package/group-css-media-queries) CSS postprocessing: group media queries.
+-   [ttf2woff](https://www.npmjs.com/package/ttf2woff) - npm package helped me convert fonts from ttf format to woff.
+-   [webp-converter-cli](https://www.npmjs.com/package/webp-converter-cli) The CommandLine tool for converting jpg or png files to webp, recursively.
 
 ## Author
 
